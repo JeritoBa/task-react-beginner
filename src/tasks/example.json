@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Comer saludable",
+        "description": "Evitar azucares",
+        "id": 0,
+        "done": false,
+        "priority": "Baja"
+    }, 
+    {
+        "title": "Aprender",
+        "description": "Aprender de cada cosa",
+        "id": 1,
+        "done": false,
+        "priority": "Media"
+    }, 
+    {
+        "title": "Hacer ejercicio",
+        "description": "Quemar calorias para hacer ejercicio",
+        "id": 2,
+        "done": false,
+        "priority": "Alta"
+    }
+]

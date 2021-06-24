@@ -7,10 +7,14 @@ import exampleTask from './tasks/example.json';
 import Compiler from './components/compilerTask'
 import Form from './components/form';
 
+// CSS
+import './styles/style.css'
+
 class App extends Component {
 
   state = {
-    tasks: exampleTask
+    tasks: exampleTask,
+    priority: ''
   }
 
   createTask = (title, description, priority) => {
@@ -47,9 +51,16 @@ class App extends Component {
   }
 
   render() {
-    return <div>
-      <Form datos={this.createTask}/>
-      <Compiler example={this.state.tasks} delete={this.deleteTask} done={this.doneTask}/>
+    return <div className="father">
+      <div className="form">
+        <Form datos={this.createTask}/>
+      </div>
+      <div className="father-tasks">
+        <h1>Tasks</h1>
+        <div className="conductor">
+          <Compiler example={this.state.tasks} delete={this.deleteTask} done={this.doneTask} />
+        </div>
+      </div>
     </div>
   }
 }

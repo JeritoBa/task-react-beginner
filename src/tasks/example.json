@@ -12,12 +12,5 @@
         "id": 1,
         "done": false,
         "priority": "Media"
-    }, 
-    {
-        "title": "Hacer ejercicio",
-        "description": "Quemar calorias para hacer ejercicio",
-        "id": 2,
-        "done": false,
-        "priority": "Alta"
     }
 ]
